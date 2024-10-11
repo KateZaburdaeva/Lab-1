@@ -68,9 +68,6 @@ for i in range(0, len(list)):
     elif int(list[i]) < 0:
         more += 1
 
-less = less 
-more = more 
-
 # print(list)
 
 print('Больше 0', '(', more, ')', f'{RED}{" " * more}{END}')
